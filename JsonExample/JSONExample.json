@@ -1,0 +1,125 @@
+{
+    "hotelogix": {
+        "msgId": "80a4a032-8312-11e7-9055-9cb6546cbff6",
+        "version": "1.0",
+        "datetime": "2017-08-17T06:08:38",
+        "response": {
+            "status": {
+                "code": 0,
+                "message": "success"
+            },
+            "hotelId": 12515,
+            "data": {
+                "bookings": [
+                    {
+                        "group": {
+                            "id": "JlQcZLU3",
+                            "code": "VVkUf0k-8II|",
+                            "webRefId": "Ig||",
+                            "createdOn": "2017-08-10 11:24:11",
+                            "ciDate": "2017-01-19",
+                            "coDate": "2017-01-20",
+                            "status": "CHECKIN",
+                            "ownerType": "Agent",
+                            "ownerId": "I3P-hNA|",
+                            "payTerm": "2",
+                            "source": "Ig||",
+                            "arrivalDetails": "0",
+                            "arrivalDetailsNo": "",
+                            "arrivalTime": "",
+                            "arrivalTimeShift": "AM",
+                            "departureMode": "0",
+                            "departureDetails": "",
+                            "departureTime": "",
+                            "departureTimeShift": "AM",
+                            "preference": "",
+                            "grpLeaderRsvId": "Ig||",
+                            "grpLeaderGstId": "Ig||"
+                        },
+                        "reservations": [
+                            {
+                                "id": "IBauo401qA||",
+                                "code": "081097",
+                                "type": "f",
+                                "isCrs": "0",
+                                "webRefId": "Ig||",
+                                "createdOn": "2017-08-10 11:24:39",
+                                "canceledOn": "0000-00-00 00:00:00",
+                                "naCreatedOn": "2017-01-19 00:00:00",
+                                "ciDate": "2017-01-19",
+                                "coDate": "2017-01-20",
+                                "status": "CHECKIN",
+                                "source": "Ig||",
+                                "adult": "1",
+                                "child": "0",
+                                "stays": [
+                                    {
+                                        "fromDate": "2017-01-19",
+                                        "toDate": "2017-01-20",
+                                        "roomTypeId": "JlVeAyE|",
+                                        "roomId": "IZy6UudW"
+                                    }
+                                ],
+                                "rates": [
+                                    {
+                                        "rateId": "I3P9b3hi-Fs|",
+                                        "rateName": "Seasonal Rate",
+                                        "fromDate": "2017-01-19",
+                                        "toDate": "2017-01-20",
+                                        "priceBfDisc": "1000.000000",
+                                        "discount": "0.000000",
+                                        "discType": "FV",
+                                        "priceBfTax": "1000.000000",
+                                        "tax": "50.000000",
+                                        "priceAfTax": "1050.000000"
+                                    }
+                                ],
+                                "guests": [
+                                    {
+                                        "id": "JlQZbmA9hg||",
+                                        "guestId": "I3d99caI3A||",
+                                        "isPrimary": "Yes",
+                                        "isSharer": "Yes",
+                                        "type": "Adult",
+                                        "ciDate": "2017-01-19",
+                                        "coDate": "2017-01-20",
+                                        "status": "CHECKIN"
+                                    }
+                                ],
+                                "extBeds": [
+                                    {
+                                        "id": "I3IUPw||",
+                                        "fromDate": "2017-04-07 00:00:00",
+                                        "toDate": "2017-04-08 00:00:00",
+                                        "noOfBeds": "1",
+                                        "totalAmount": "20.000000"
+                                    },
+                                    {
+                                        "id": "I3IUOA||",
+                                        "fromDate": "2017-04-08 00:00:00",
+                                        "toDate": "2017-04-09 00:00:00",
+                                        "noOfBeds": "0",
+                                        "totalAmount": "20.000000"
+                                    },
+                                    {
+                                        "id": "I3IUOQ||",
+                                        "fromDate": "2017-04-09 00:00:00",
+                                        "toDate": "2017-04-11 00:00:00",
+                                        "noOfBeds": "1",
+                                        "totalAmount": "20.000000"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "request": {
+            "hotelId": "12515",
+            "id": "477689",
+            "extraDataVal1": "",
+            "methodName": "getGroup"
+        }
+    }
+}

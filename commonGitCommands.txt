@@ -1,0 +1,18 @@
+01. Create a new local repository : git init <repo name>
+02. Create & add a file to the repo : git add <new file>
+03. Commit changes : git commit
+04. Create a branch : git branch <branch name>
+<<<<<<< HEAD
+05. Switch to a branch : git checkout
+=======
+05. Switch to a branch : git checkout <branch name>
+>>>>>>> my1stbranch
+06. Check the status of the files changed : git status
+07. Review recent commits : git log
+08. Get a list of branches & active branch : git branch
+09. Revart changes : git revert
+10. Merge changes in your active branch into another branch : git merge
+11. Configure GIT : git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+12. Git Commit with message : git commit -m "added newfile"
+
